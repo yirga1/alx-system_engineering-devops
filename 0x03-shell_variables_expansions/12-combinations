@@ -1,2 +1,2 @@
 #!/bin/bash
-for w in {h,H}{a,A}{r,R}{l,L}{e,E}{y,Y} do echo $w;done
+echo {a..z}{a..z} | tr ' ' '\n' | grep -v oo
